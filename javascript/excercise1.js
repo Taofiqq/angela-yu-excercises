@@ -5,13 +5,11 @@ function test() {
   /***********Do not change the code above 👆*******/
   //Write your code on lines 7 - 9:
   var c = a;
-  console.log(a);
+  console.log(`The value of c currently is ${c}`);
   var a = b;
-  console.log(b);
+  console.log(`The value of a currently is ${a}`);
   var b = c;
-  console.log(c);
-
-  console.log(a, b);
+  console.log(`The value of b currently is ${b}`);
 
   /***********Do not change the code below 👇*******/
 
